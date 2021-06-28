@@ -1,6 +1,15 @@
+//abstracts
 @import 'abstracts/variables';
+//Vendors
 @import 'vendors/scss/bootstrap';
+//Base
 @import 'base/typography.scss';
 @import 'base/reset.scss';
+//Components
+@import 'components/buttons.scss';
+@import 'components/form';
+//Layouts
 @import 'layout/navigation.scss';
+@import 'layout/header';
+//Pages
 @import 'pages/index.scss';

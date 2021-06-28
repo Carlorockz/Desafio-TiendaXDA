@@ -1,0 +1,36 @@
+//Form
+
+.form{
+    color: white;
+    &__button{
+        background-color: white;
+        border-radius: 0;
+        transform: rotate(-270deg);
+        font-family: $oldstandard;
+        font-weight: $bold;
+        font-size: 1.4rem;
+    }
+    &__input{
+        width: 20rem;
+    }
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 5rem;
+    }
+    &__button-container{
+      background-color: $white;
+      height: 30rem;
+      padding-top: 11rem;
+    }
+    &__newsletter-container{
+        padding-top: 8rem;
+
+    }
+}
+.form__label.form-label{
+    font-family: $oldstandard;
+}
+.form__input.form-control{
+    width: 15rem;
+}
